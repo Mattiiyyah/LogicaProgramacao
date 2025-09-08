@@ -11,5 +11,7 @@ public class MultiploCinco {
         if(numero % 5 == 0) System.out.print("\nO número: " + numero + " é multiplo de 5");
         else System.out.print("\nO número: " + numero + " não é multiplo de 5");
 
+        leitor.close();
+        System.exit(0);
     }
 }
