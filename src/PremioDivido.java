@@ -3,7 +3,7 @@ public class PremioDivido {
     public static void main(String args[]) {
         //valor da importância 780.000
         final double importancia = 780.000;
-        double primeiro, segundo, terceiro, constante, p1, p2, p3, total;
+        double primeiro, segundo, terceiro, constante, p1, p2, p3;
         Scanner leitor = new Scanner(System.in);
         System.out.print("\nDigite os pontos do primeiro ganhador: ");
         primeiro = leitor.nextDouble();
