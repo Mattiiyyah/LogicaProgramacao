@@ -6,7 +6,7 @@ public class ConversaoTemperatura {
         System.out.print("\nDigite a temperatura em Fahrenheit: ");
         f = leitor.nextDouble();
         c = (f - 32) / 1.8;
-        System.out.print("\nA temperatura em Celsius é: " + c);
+        System.out.printf("\nA temperatura em Celsius é: %.2f", c);
 
         leitor.close();
         System.exit(0);
