@@ -22,7 +22,7 @@ public class ContaAgua {
             valor_consumido = quan_consumida * valor_acima;
             valor_esgoto  = valor_consumido;
             valor = valor_esgoto + valor_consumido;
-            valor_total = valor  * icms;
+            valor_total = valor + (valor * icms);
 
             System.out.printf("\nO valor consumido é: %.2f", valor_consumido);
             System.out.printf("\nO valor de esgoto é: %.2f ", valor_esgoto);
