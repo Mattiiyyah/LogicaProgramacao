@@ -10,9 +10,9 @@ public class CalculaSalario {
         salarioBruto  = valorHora * horasTrabalhadas;
         desconto = salarioBruto * inss;
         salarioLiquido = salarioBruto - desconto;
-        System.out.print("\nO valor do salário bruto é: " + salarioBruto);
-        System.out.print("\nO valor o desconto é: " + desconto);
-        System.out.print("\nO valor do salário líquido é: " + salarioLiquido);
+        System.out.printf("\nO valor do salário bruto é: %.2f ", salarioBruto);
+        System.out.printf("\nO valor o desconto é: %.2f", desconto);
+        System.out.printf("\nO valor do salário líquido é: %.2f", salarioLiquido);
 
         leitor.close();
         System.exit(0);
