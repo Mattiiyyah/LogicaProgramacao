@@ -9,7 +9,7 @@ public class VolumeCilindro {
         System.out.print("\nDigite o raio do cilindro: ");
         r = leitor.nextDouble();;
         v = PI * r * r * a;
-        System.out.println("\nO valor do volume do cilindro é: " + v);
+        System.out.printf("\nO valor do volume do cilindro é: %.2f", v);
 
         leitor.close();
         System.exit(0);
