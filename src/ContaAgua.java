@@ -29,5 +29,8 @@ public class ContaAgua {
             System.out.printf("\nO valor total sem icms é: %.2f", valor);
             System.out.printf("\nO valor total é: %.2f", valor_total);
         }
+
+        leitor.close();
+        System.exit(0);
     }
 }
