@@ -15,9 +15,9 @@ public class PremioDivido {
         p1 = primeiro * constante;
         p2 = segundo * constante;
         p3 = terceiro * constante;
-        System.out.println("\nO primeiro ganhador recebeu: " + p1);
-        System.out.println("\nO segundo ganhador recebeu: " + p2);
-        System.out.println("\nO terceiro ganhador recebeu: " + p3);
+        System.out.printf("\nO primeiro ganhador recebeu: %.2f", p1);
+        System.out.printf("\nO segundo ganhador recebeu: %.2f", p2);
+        System.out.printf("\nO terceiro ganhador recebeu: %.2f", p3);
 
         leitor.close();
         System.exit(0);
