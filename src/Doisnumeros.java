@@ -9,7 +9,7 @@ public class Doisnumeros {
         System.out.print("\nDigite o segundo número: ");
         n2 = leitor.nextDouble();
         media = (n1 + n2) / 2;
-        System.out.print("\nA média entre os dois números é:" + media);
+        System.out.printf("\nA média entre os dois números é: %.2f", media);
 
         leitor.close();
         System.exit(0);
