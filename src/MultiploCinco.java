@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class MultiploCinco {
+    public static void main (String args[]) {
+        Scanner leitor = new Scanner(System.in);
+        final double multiplo = 5.0;
+        double numero;
+        System.out.print("\nDigite um número: ");
+        numero = leitor.nextDouble();
+
+        if(numero % 5 == 0) System.out.print("\nO número: " + numero + " é multiplo de 5");
+        else System.out.print("\nO número: " + numero + " não é multiplo de 5");
+
+    }
+}
