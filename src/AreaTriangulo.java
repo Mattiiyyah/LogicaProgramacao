@@ -9,7 +9,7 @@ public class AreaTriangulo {
         System.out.print("\nDigite a comprimento do triangulo: ");
         c = leitor.nextDouble();
         a = l * c;
-        System.out.print("\nA área do triângulo é: " + a);
+        System.out.printf("\nA área do triângulo é: %.2f", a);
 
         leitor.close();
         System.exit(0);
