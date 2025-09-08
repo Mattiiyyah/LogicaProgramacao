@@ -9,7 +9,7 @@ public class AreaRetangulo {
         System.out.print("\nDigite o valor da altura: ");
         al = leitor.nextDouble();
         a = (b * al) / 2;
-        System.out.print("\nA área do retângulo é: " + a);
+        System.out.printf("\nA área do retângulo é: %.2f", a);
 
         leitor.close();
         System.exit(0);
