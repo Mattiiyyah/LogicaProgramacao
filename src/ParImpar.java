@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class ParImpar {
     public static void main(String args[]) {
-        int n, resto;
+        final int resto;
+        int n;
         Scanner leitor = new Scanner(System.in);
         System.out.print("\nDigite um número: ");
         n = leitor.nextInt();
