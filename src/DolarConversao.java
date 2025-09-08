@@ -8,7 +8,7 @@ public class DolarConversao {
         System.out.print("\nDigite o valor em dolar: ");
         dolar = leitor.nextDouble();
         reais = cotacaoDoalar * dolar;
-        System.out.print("\nO valor do dolar em R$ é " + reais);
+        System.out.printf("\nO valor do dolar em R$ é:  %.2f", reais);
 
         leitor.close();
         System.exit(0);
