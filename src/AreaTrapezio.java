@@ -11,7 +11,7 @@ public class AreaTrapezio {
         System.out.print("\nDigite o valor da altura: ");
         altura = leitor.nextDouble();
         area = (baseMaior + baseMenor) * altura / 2;
-        System.out.print("\nO valor da área do trapézio é: " + area);
+        System.out.printf("\nO valor da área do trapézio é: %.2f", area);
 
         leitor.close();
         System.exit(0);
