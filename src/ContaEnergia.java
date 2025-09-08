@@ -11,9 +11,9 @@ public class ContaEnergia {
 
         if(quan_Consumida > kwh) {
             valor *= porcentual;
-            System.out.print("\nO valor pago com adição é: " + valor);
+            System.out.printf("\nO valor pago com adição é: %.2f", valor);
         } else {
-            System.out.print("\nO valor pago é: " + valor);
+            System.out.printf("\nO valor pago é:  %.2f",valor);
         }
 
         leitor.close();
