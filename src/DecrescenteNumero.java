@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class DecrescenteNumero {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
-        final double comeco, meio, fim;
+        final double maior, intermediario, menor;
         double n1, n2, n3;
         System.out.println("-- Exibindo números ordem decrescente --");
 
@@ -21,29 +21,29 @@ public class DecrescenteNumero {
         } while (n1 == n2 || n2 == n3 || n1 == n3);
 
         if (n1 > n2 && n1 > n3) {
-            comeco = n1;
+            maior = n1;
         } else if (n2 > n1 && n2 > n3) {
-            comeco = n2;
+            maior = n2;
         } else {
-            comeco = n3;
+            maior = n3;
         }
 
         if((n1 < n2 && n1 > n3) || (n1 < n3 && n1 > n2)) {
-            meio = n1;
+            intermediario = n1;
         } else if((n2 < n1 && n2 > n3) || (n2 < n3 && n2 > n1)) {
-            meio = n2;
+            intermediario = n2;
         } else {
-            meio = n3;
+            intermediario = n3;
         }
 
         if (n1 < n2 && n1 < n3) {
-            fim = n1;
+            menor = n1;
         } else if (n2 < n1 && n2 < n3) {
-            fim = n2;
+            menor = n2;
         } else {
-            fim = n3;
+            menor = n3;
         }
 
-        System.out.print("\nNúmeros em ordem crescente: " + comeco + ", " + meio + ", " + fim);
+        System.out.print("\nNúmeros em ordem decrescente: " + maior + ", " + intermediario + ", " + menor);
     }
 }
