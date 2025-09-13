@@ -12,26 +12,22 @@ public class CaracteristicaPessoa {
         System.out.print("\nDigite seu peso: ");
         peso = leitor.nextDouble();
 
-        if(idade > 18 && idade < 68) {
-            if(altura > 1.65 && altura < 1.75) {
-                if(peso > 70 && peso < 80) {
-                    System.out.print("\nVOCÊ POSSUI TODAS AS CARACTERISTICAS DESEJADAS:");
-                    System.out.print(idade + " anos " + altura + " m " + peso + " kg ");
-                }
-            }
+        if((idade > 18 && idade < 68) && (altura > 1.65 && altura < 1.75) && (peso > 70 && peso < 80)) {
+                    System.out.println("\nVOCÊ POSSUI TODAS AS CARACTERISTICAS DESEJADAS:");
+                    System.out.print("\n" + idade + " anos " + altura + " m " + peso + " kg ");
         } else {
-            System.out.print("Você não possui as caracteristicas desejadas pois: ");
+            System.out.println("\nVocê não possui as caracteristicas desejadas pois: ");
 
             if(idade <= 18 || idade >= 68) {
-                System.out.print("Sua idade é: " + idade + " anos");
+                System.out.print("\nSua idade é: " + idade + " anos");
             }
 
             if(altura < 1.65 || altura > 1.75) {
-                System.out.print("Sua altura é: " + altura + " m");
+                System.out.print("\nSua altura é: " + altura + " m");
             }
 
             if(peso < 70 || peso > 80) {
-                System.out.print("Seu peso é: " + peso + " kg");
+                System.out.print("\nSeu peso é: " + peso + " kg");
             }
         }
 
