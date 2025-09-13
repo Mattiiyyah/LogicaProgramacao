@@ -8,9 +8,9 @@ public class EnergiaCasa {
         System.out.print("\nDigite a quantidade consumida em KHz: ");
         consumo_khw = leitor.nextDouble();
 
-        if (consumo_khw <= 50) {
+        if (consumo_khw > 0 && consumo_khw <= 50) {
             valorTotal = consumo_khw * v1;
-        } else if (consumo_khw <= 100) {
+        } else if (consumo_khw >= 51 && consumo_khw <= 100) {
             valorTotal = (50 * v1) + (consumo_khw - 50) * v2;
         } else {
             valorTotal = (50 * v1) + (50 * v2) + (consumo_khw - 100) * v3;
