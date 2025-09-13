@@ -16,5 +16,8 @@ public class AnoBissexto {
         } else {
             System.out.print("\nQue pena o ano não é bissexto: " + dias + " dias");
         }
+
+        leitor.close();
+        System.exit(0);
     }
 }
