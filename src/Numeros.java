@@ -14,5 +14,8 @@ public class Numeros {
         } else {
             System.out.print("\n O número: " + numero + " é zero");
         }
+
+        leitor.close();
+        System.exit(0);
     }
 }
