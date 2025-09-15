@@ -23,7 +23,7 @@ public class ContaGas {
         System.out.printf("\nValor do PIS: %.2f", total_pis);
         System.out.printf("\nValor do CONFINS: %.2f", total_confins);
         System.out.printf("\nValor total à pagar: %.2f", total);
-        
+
         leitor.close();
         System.exit(0);
     }
