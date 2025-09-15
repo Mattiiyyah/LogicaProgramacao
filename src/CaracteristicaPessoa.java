@@ -23,7 +23,7 @@ public class CaracteristicaPessoa {
             if(idade <= IDADE1 || idade >= IDADE2) System.out.print("\nSua idade é: " + idade + " anos");
             if(altura < ALTURA1 || altura > ALTURA2) System.out.print("\nSua altura é: " + altura + " m");
             if(peso < PESO1 || peso > PESO2) System.out.print("\nSeu peso é: " + peso + " kg");
-            
+
         }
 
         leitor.close();
