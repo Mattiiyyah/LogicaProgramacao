@@ -20,17 +20,10 @@ public class CaracteristicaPessoa {
         } else {
             System.out.println("\nVocê não possui as caracteristicas desejadas pois: ");
 
-            if(idade <= IDADE1 || idade >= IDADE2) {
-                System.out.print("\nSua idade é: " + idade + " anos");
-            }
-
-            if(altura < ALTURA1 || altura > ALTURA2) {
-                System.out.print("\nSua altura é: " + altura + " m");
-            }
-
-            if(peso < PESO1 || peso > PESO2) {
-                System.out.print("\nSeu peso é: " + peso + " kg");
-            }
+            if(idade <= IDADE1 || idade >= IDADE2) System.out.print("\nSua idade é: " + idade + " anos");
+            if(altura < ALTURA1 || altura > ALTURA2) System.out.print("\nSua altura é: " + altura + " m");
+            if(peso < PESO1 || peso > PESO2) System.out.print("\nSeu peso é: " + peso + " kg");
+            
         }
 
         leitor.close();
