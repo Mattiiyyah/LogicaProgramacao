@@ -11,7 +11,7 @@ public class NumerosIguais {
 
         if(n1 == n2) System.out.print("\nOs números são iguais");
         else System.out.print("\nOs números são diferentes");
-        
+
         leitor.close();
         System.exit(0);
     }
