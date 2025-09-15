@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class MediaFinal {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
-        final int total = 3;
+        final int TOTAL = 3;
         double n1, n2, n3, media;
         System.out.println("\n--- ## CALCULANDO MÉDIA DE ALUNO ## ---");
         System.out.print("\nDigite a primeira nota do aluno: ");
@@ -12,7 +12,7 @@ public class MediaFinal {
         System.out.print("\nDigite a terceira nota do aluno: ");
         n3 = leitor.nextDouble();
 
-        media = (n1 + n2 + n3) / total;
+        media = (n1 + n2 + n3) / TOTAL;
 
         if(media > 9) System.out.printf("\nParabéns seu desempenho foi EXCELENTE: %.2f", media);
 
