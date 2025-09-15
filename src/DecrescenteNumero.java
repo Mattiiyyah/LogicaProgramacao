@@ -45,5 +45,8 @@ public class DecrescenteNumero {
         }
 
         System.out.print("\nNúmeros em ordem decrescente: " + maior + ", " + intermediario + ", " + menor);
+
+        leitor.close();
+        System.exit(0);
     }
 }
