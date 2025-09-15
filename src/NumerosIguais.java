@@ -9,13 +9,9 @@ public class NumerosIguais {
         System.out.print("\nDigite o segundo número: ");
         n2 = leitor.nextDouble();
 
-        if(n1 == n2) {
-            System.out.print("\nOs números são iguais");
-        }
-        else {
-            System.out.print("\nOs números são diferentes");
-        }
-
+        if(n1 == n2) System.out.print("\nOs números são iguais");
+        else System.out.print("\nOs números são diferentes");
+        
         leitor.close();
         System.exit(0);
     }
