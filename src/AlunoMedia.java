@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class AlunoMedia {
     public static void main (String args[]) {
-        final double mediaAprovacao = 6.0;
+        final double MEDIA_APROVACAO = 6.0;
         double nota1, nota2, media;
         Scanner leitor = new Scanner(System.in);
         System.out.print("\nDigite a primeira nota do aluno: ");
@@ -12,12 +12,8 @@ public class AlunoMedia {
         nota2 = leitor.nextDouble();
         media = (nota1 + nota2) / 2;
 
-        if(media >= mediaAprovacao) {
-            System.out.print("\nAluno Aprovado: " + media);
-        }
-        else {
-            System.out.print("Aluno reprovado: " + mediaAprovacao);
-        }
+        if(media >= MEDIA_APROVACAO) System.out.print("\nAluno Aprovado: " + media);
+        else System.out.print("Aluno reprovado: " + media);
 
         leitor.close();
         System.exit(0);
