@@ -21,9 +21,11 @@ public class ContaGas {
         total_confins = consumo_total * CONFINS;
         total = consumo_total + total_icms + total_confins + total_pis;
 
-        if(cargo.equalsIgnoreCase("Professor") || cargo.equalsIgnoreCase("professor")) {
+        if(cargo.equalsIgnoreCase("Professor") || cargo.equalsIgnoreCase("professor") || cargo.equalsIgnoreCase("PROFESSOR")) {
             valor_desconto = total * DESCONTO;
             total -= valor_desconto;
+        } else {
+            System.out.println("\nInfelizmente você não é professor então não receberá desconto");
         }
 
         System.out.printf("\nO valor total do consumo foi: %.2f", consumo_total);
