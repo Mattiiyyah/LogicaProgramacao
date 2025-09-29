@@ -10,7 +10,10 @@ public class ProgX {
         for (int i = 1; i <= 5; i++) {
             System.out.println("Salario " + i + ": ");
             salario = leitor.nextDouble();
+            soma += salario;
         }
+
+        System.out.print("\nMédia Salarial " + soma / 5);
 
         leitor.close();
         System.exit(0);
