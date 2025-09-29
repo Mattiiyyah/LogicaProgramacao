@@ -1,8 +1,18 @@
+import java.util.Scanner;
+
 public class ProgX {
     public static void main(String[] args) {
-        for (int i = 1; i <= 10; i++) {
-            if(i % 2 == 0) System.out.println("Par " + i);
-            else System.out.println("Impar " + i);
+
+        Scanner leitor = new Scanner(System.in);
+
+        double salario, soma = 0;
+
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("Salario " + i + ": ");
+            salario = leitor.nextDouble();
         }
+
+        leitor.close();
+        System.exit(0);
     }
 }
