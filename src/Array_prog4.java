@@ -30,7 +30,7 @@ public class Array_prog4 {
                 }
             } while (nota[i] < 0 || nota[i] > 10);
 
-            // Validação do sexo
+            // Validação do sexo aluno
             do {
                 System.out.print("\nDigite [M] - Masculino ou [F] - Feminino do " + (i + 1) + "º aluno: ");
                 sexo[i] = leitor.next().charAt(0);
