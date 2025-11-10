@@ -12,7 +12,7 @@ public class Array_prog5 {
         int soma_numero = 0, maior_numero = -1, menor_numero = Integer.MAX_VALUE;
 
         for(int i = 0; i < TAM; i++) {
-            System.out.println("\nDigite o " + (i+1) + "º número: ");
+            System.out.print("\nDigite o " + (i+1) + "º número: ");
             numeros[i] = leitor.nextInt();
 
             //item a
@@ -44,7 +44,7 @@ public class Array_prog5 {
         System.out.println("\n======= RESULTADOS =======");
 
         // Item a
-        System.out.println("Quantidade de números Pares: " + cont_par);
+        System.out.println("\nQuantidade de números Pares: " + cont_par);
         System.out.println("Quantidade de números Ímpares: " + cont_impar);
         System.out.println("% de números Pares: " + String.format("%.2f", (cont_par * 1.0 / TAM * 100)) + "%");
         System.out.println("% de números Ímpares: " + String.format("%.2f", (cont_impar * 1.0 / TAM * 100)) + "%");
