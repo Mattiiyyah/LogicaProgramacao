@@ -19,9 +19,11 @@ public class Array_prog4 {
 
         for(int i = 0; i < TAM; i++) {
 
+            System.out.println("\n\nInformações do aluno " + (i+1) + ": ");
+
             // Validação da nota aluno
             do {
-                System.out.println("\nDigite a nota do aluno sendo de (0 a 10): ");
+                System.out.print("\nDigite a nota do aluno sendo de (0 a 10): ");
                 nota[i] = leitor.nextDouble();
                 if (nota[i] < 0 || nota[i] > 10) {
                     System.out.println("Nota inválida! Tente novamente.");
@@ -30,7 +32,7 @@ public class Array_prog4 {
 
             // Validação do sexo
             do {
-                System.out.println("Digite [M] - Masculino ou [F] - Feminino do " + (i + 1) + "º aluno: ");
+                System.out.print("\nDigite [M] - Masculino ou [F] - Feminino do " + (i + 1) + "º aluno: ");
                 sexo[i] = leitor.next().charAt(0);
                 sexo[i] = Character.toUpperCase(sexo[i]); // transforma em maiúscula
                 if (sexo[i] != 'M' && sexo[i] != 'F') {
