@@ -19,8 +19,6 @@ public class Array_prog4 {
 
         for(int i = 0; i < TAM; i++) {
 
-            System.out.println("\nInformações do aluno " + (i+1) + ": ");
-
             // Validação da nota
             do {
                 System.out.println("\nDigite a nota do aluno sendo de (0 a 10): ");
