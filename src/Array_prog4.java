@@ -99,8 +99,7 @@ public class Array_prog4 {
         }
 
         System.out.println("\n===== RESULTADOS =====");
-
-        System.out.println("\n===== RESULTADOS =====");
+        
 
         System.out.println("\nA média das notas é: " + String.format("%.2f", media_nota));
         System.out.println("A maior nota é: " + String.format("%.2f", maior_nota));
