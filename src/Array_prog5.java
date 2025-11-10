@@ -35,7 +35,7 @@ public class Array_prog5 {
             }
 
             //item e
-            if(numeros[i] % 5 == 0)
+            if(numeros[i] % MULTIPLO == 0)
                 cont_multiplo++;
         }
 
