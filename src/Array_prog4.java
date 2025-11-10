@@ -19,7 +19,7 @@ public class Array_prog4 {
 
         for(int i = 0; i < TAM; i++) {
 
-            // Validação da nota
+            // Validação da nota aluno
             do {
                 System.out.println("\nDigite a nota do aluno sendo de (0 a 10): ");
                 nota[i] = leitor.nextDouble();
